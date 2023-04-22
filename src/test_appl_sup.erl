@@ -36,8 +36,8 @@ init([]) ->
 		  #{id=>common,
 		    start=>{common,start_link,[]}},
 		    %% Application
-		  #{id=>tester,
-		    start=>{tester,start_link,[]}}],
+		  #{id=>test_appl,
+		    start=>{test_appl,start_link,[]}}],
     {ok, {SupFlags, ChildSpecs}}.
 
 %% internal functions

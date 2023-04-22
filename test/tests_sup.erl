@@ -35,8 +35,8 @@ init([]) ->
 		    start=>{sd,start_link,[]}},
 		  #{id=>common,
 		    start=>{common,start_link,[]}},
-		  #{id=>dbetcd,
-		    start=>{dbetcd,start_link,[]}}],
+		  #{id=>test_appl,
+		    start=>{test_appl,start_link,[]}}],
     {ok, {SupFlags, ChildSpecs}}.
 
 %% internal functions

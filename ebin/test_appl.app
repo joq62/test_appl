@@ -5,6 +5,6 @@
               {mod,{test_appl_app,[]}},
               {applications,[kernel,stdlib]},
               {env,[]},
-              {modules,[test_appl_app,test_appl_sup,tester]},
+              {modules,[test_appl,test_appl_app,test_appl_sup]},
               {licenses,["Apache-2.0"]},
               {links,[]}]}.

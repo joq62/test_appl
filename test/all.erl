@@ -39,8 +39,8 @@ start()->
 %% --------------------------------------------------------------------
 test_1()->
     io:format("Start ~p~n",[{?MODULE,?FUNCTION_NAME}]),
-    42=tester:add(20,22),
-    42.0=tester:divi(420,10),
+    42=test_appl:add(20,22),
+    42.0=test_appl:divi(420,10),
 
     ok.
 %% --------------------------------------------------------------------
@@ -57,5 +57,5 @@ setup()->
     pong=common:ping(),
     pong=sd:ping(),
     pong=log:ping(),
-    pong=tester:ping(),
+    pong=test_appl:ping(),
     ok.
